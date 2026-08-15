@@ -1,0 +1,39 @@
+/*
+1. create a variable of type string and try to add no. into it 
+2. Use typeof operator to find datatye of string in last question
+3. create a const object in js can you change it to hold a number later?
+4. try to add a new key to const object in problem 3 where you able to do it?
+5. write js program to creat a word - meaning dictionary of 5 words
+*/
+
+//Q1
+let a = "bottle";
+let b = 10;
+console.log(a+b);   //bottle10
+
+//Q2
+console.log(typeof(a + b)); //string
+
+//Q3
+const items={
+    name: "Harry",
+    section: 1,
+    ispriniciple : false
+}
+//items = 45; // cant add new number like this
+
+//Q4
+items['friend'] = "Anjali";
+console.log(items);  // const is constant still able to add new key
+
+//Q5
+const dict = {
+    ataraxia : "I just want a week away from the daily grind.",
+    yakka : "work, especially hard work",
+}
+
+console.log(dict["yakka"]);
+console.log(dict['yakka']);
+//or
+console.log(dict.yakka);
+
