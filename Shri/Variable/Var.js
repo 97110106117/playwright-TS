@@ -71,8 +71,33 @@ getDetails();
     var a = 398;
     let b = 10;
     const c = 20;
+    console.log(b); // 10
+    console.log(c); //20
 
 }
 console.log(a); //398
-console.log(b); // error
-console.log(c); //error
+
+// var,let,const are function scope
+// let,const are block scope
+
+//const is immutable (we cannot change value)
+const object = {
+    age : 20,
+    name : "Anjali" 
+}
+
+object.name = "Umanjali";
+console.log(object);      //{ age: 20, name: 'Umanjali' }
+
+
+const object1 = {
+    age : 20,
+    name : "Anjali" 
+}
+object1 = {
+    age : 24,
+    name : "uma - Anjali" 
+}
+console.log(object); // error (Assignment to constant variable.)
+
+
