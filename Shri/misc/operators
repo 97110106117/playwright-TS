@@ -1,0 +1,28 @@
+function addition(a,b){
+    let add = a+b;
+    return add;
+}
+
+console.log(addition(10,20));
+
+function substraction(a,b){
+    let substract = a-b;
+    return substract;
+}
+console.log(substraction(10,20));
+
+function multiplication(a,b){
+    let multiply = a*b;
+    return multiply;
+}
+console.log(multiplication(10,20));
+
+function division(a,b){
+    let div = a/b;
+    return div;
+} 
+console.log(division(43,5));
+
+let age = 30;
+let age = 40;
+console.log(age)

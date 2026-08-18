@@ -7,7 +7,7 @@
  var x = 10;
 
  //function declaration
- function getMultiplication(hum){
+ function getMultiplication(num){
     let multi = num * num;
     return multi;
  }
